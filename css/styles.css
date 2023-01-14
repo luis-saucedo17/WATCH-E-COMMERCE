@@ -510,5 +510,8 @@ input:checked[type="checkbox"]:before {
   .bubble {
     width: 140px;
     height: 140px;
+    right: -50px;
+    top: -40px;
   }
 }
+

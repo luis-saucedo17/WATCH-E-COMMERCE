@@ -20,3 +20,14 @@ function setRotation(element, rotation) {
 }
 
 setClock();
+
+let startBtn = document.getElementById("start-btn");
+startBtn.addEventListener("change", goToLogin)
+
+function goToLogin() {
+  if(this.checked) {
+    window.location.href = "http://127.0.0.1:5501/html/login.html";
+  } else {
+    return;
+  }
+}

@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: #0b0a0a;
+  color: white;
+  font-family: "Poppins";
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6%;
+}
+
+a {
+    color: white;
+}
+
+.logo h1 {
+  font-family: "Dosis", sans-serif;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+.menu, .shopping-cart {
+    background-color: #242424;
+    display: flex;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+.menu i,
+.shopping-cart i {
+  font-size: 20px;
+}
+
+.promo {
+  height: 26vh;
+  margin: 6%;
+  background: rgb(228, 228, 228);
+  background: linear-gradient(
+    113deg,
+    rgba(228, 228, 228, 1) 4%,
+    rgba(255, 255, 255, 1) 51%,
+    rgba(255, 200, 115, 1) 98%
+  );
+  border-radius: 10px;
+  position: relative;
+}
+
+.promo-content {
+  position: absolute;
+  color: black;
+  padding: 8% 5%;
+}
+
+.promo-content h3 {
+  font-size: 17px;
+}
+
+.promo-content p {
+  font-size: 12px;
+  margin-bottom: 10%;
+}
+
+.btn-started {
+  background: #fcc873;
+  padding: 7px 12px;
+  border-radius: 30px;
+  color: black;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.promo-img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 120px;
+  height: 150px;
+}
+
+img {
+  width: 100%;
+}
+
+.trending {
+    padding: 0 6% 10%
+}
+
+.item-container {
+  padding: 0 6%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.item-img {
+  background-color: #242424;
+  display: flex;
+  justify-content: center;
+  width: 40vw;
+  height: 20vh;
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+
+.item-img img {
+  width: 120px;
+}
+
+.clock-model {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.clock-price {
+  font-size: 13px;
+}
